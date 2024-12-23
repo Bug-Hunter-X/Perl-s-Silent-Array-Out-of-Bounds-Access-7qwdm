@@ -1,0 +1,1 @@
+This repository demonstrates a common, yet subtle, error in Perl: silent out-of-bounds array access.  Accessing an array element beyond its defined index returns undef without raising an error, leading to potential bugs that are difficult to track down. The example shows how to identify and correct this issue using proper bounds checking.
