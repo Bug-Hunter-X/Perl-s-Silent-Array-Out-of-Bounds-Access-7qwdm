@@ -1,0 +1,1 @@
+my @array = (1, 2, 3); my $index = 3; if ($index < @array) { my $element = $array[$index]; # Accessing the array only if the index is within bounds print "Element at index $index: $element\n"; } else { print "Index $index is out of bounds\n"; } 
